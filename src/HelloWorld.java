@@ -4,7 +4,7 @@ public class HelloWorld {
 
 
 
-//TODO
+//TODO Welcome To Java
 //  1.      Output Format: You must print two lines of output:
 //
 //  Print Hello, World. on the first line.
@@ -14,7 +14,7 @@ public class HelloWorld {
 //        System.out.println("Hello, Java.");
 
 
-//TODO
+//TODO Java Stdin and Stdout 1
 //  2.   In this challenge, you must read  integers from stdin and then print them to stdout. Each integer must be printed on a new line. To make the problem a little easier, a portion of the code is provided for you in the editor below.
 //
 //Input Format
@@ -33,7 +33,7 @@ public class HelloWorld {
 //    }
 
 
-//TODO
+//TODO Java If-Else
 //  3.   Given an integer, , perform the following conditional actions:
 //
 //        If  is odd, print Weird
@@ -69,7 +69,9 @@ public class HelloWorld {
 //        System.out.println(answer);
 //        scanner.close();
 
-//TODO 4. Input Format
+//TODO Java Stdin and Stdout 2
+// 4.
+// Input Format
 //
 //        There are three lines of input:
 //
@@ -101,7 +103,9 @@ public class HelloWorld {
 //        System.out.println("Double: " + d);
 //        System.out.println("Int: " + i);
 
-//TODO 5. Input Format
+//TODO Java Output Formatting
+// 5.
+// Input Format
 //        Every line of input will contain a String followed by an integer.
 //        Each String will have a maximum of  alphabetic characters, and each integer will be in the inclusive range from  to .
 //
@@ -123,5 +127,50 @@ public class HelloWorld {
 //        System.out.println("================================");
 
 
+//TODO Java Loops 1
+// 6.
+// Task:
+//        Given an integer, , print its first  multiples. Each multiple  (where ) should be printed on a new line in the form: N x i = result.
+//
+//                Input Format
+//        A single integer,N.
+//
+//        Constraints
+//        2 < N < 20
+//
+//        Output Format
+//        Print  lines of output; each line  (where 1 < i < 10) contains the  of N x i in the form:
+//        N x i = result.
+//
+// Solution:
+//        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+//
+//        int N = Integer.parseInt(bufferedReader.readLine().trim());
+//
+//        for(int i = 1; i <=10; i++){
+//            System.out.println(N + " x " + i + " = " + N * i);
+//        }
+//
+//        bufferedReader.close();
+
+
+//TODO Java Loops 2
+// 7.
+//        Solution
+//
+//        Scanner in = new Scanner(System.in);
+//        int t=in.nextInt();
+//        for(int i=0;i<t;i++){
+//            int a = in.nextInt();
+//            int b = in.nextInt();
+//            int n = in.nextInt();
+//            int temp = a;
+//            for(int x = 0; x < n; x++) {
+//                temp +=(Math.pow(2, x) * b);
+//                System.out.print(temp + " ");
+//            }
+//            System.out.println();
+//        }
+//        in.close();
     }
 }
