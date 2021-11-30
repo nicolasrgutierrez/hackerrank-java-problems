@@ -218,5 +218,48 @@ public class HelloWorld {
 //        }
 //        sc.close();
 
+//TODO Java Static Initializer Block
+// 10.
+//                 Input Format
+//
+//There are two lines of input. The first line contains : the breadth of the parallelogram. The next line contains : the height of the parallelogram.
+//
+//          Output Format
+//
+//If both values are greater than zero, then the main method must output the area of the parallelogram. Otherwise, print "java.lang.Exception: Breadth and height must be positive" without quotes.
+//
+//
+// Solution
+//
+//          public class Solution {
+//
+////Write your code here
+//static boolean flag;
+//static int B,H;
+//
+//static{
+//    Scanner io = new Scanner(System.in);
+//    B = io.nextInt();
+//    H = io.nextInt();
+//    if(B>0 && H>0)
+//    {
+//        flag = true;
+//    }
+//    else
+//    {
+//        System.out.println("java.lang.Exception: Breadth and height must be positive");
+//    }
+//}
+//
+//public static void main(String[] args){
+//		if(flag){
+//			int area=B*H;
+//			System.out.print(area);
+//		}
+//
+//	    }//end of main
+//
+//     }//end of class
+
     }
 }
