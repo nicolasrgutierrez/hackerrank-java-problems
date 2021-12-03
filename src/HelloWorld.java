@@ -266,8 +266,6 @@ public class HelloWorld {
 // 11.
 //                You are given a date. You just need to write the method, , which returns the day on that date. To simplify your task, we have provided a portion of the code in the editor.
 //
-//
-//
 // Solution
 //
 //  import java.time.LocalDate;
@@ -294,7 +292,23 @@ public class HelloWorld {
 //
 //}
 
-
+//TODO Java Int to String
+// 12.
+//                You are given an integer , you have to convert it into a string.
+//
+//Please complete the partially completed code in the editor. If your code successfully converts  into a string  the code will print "Good job". Otherwise it will print "Wrong answer".
+//
+// Solution
+//
+//  String s = String.valueOf(n);
+//
+//
+//
+//
+//
+//
+//
+// }
 
 
 
