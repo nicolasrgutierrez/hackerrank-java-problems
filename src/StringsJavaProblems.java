@@ -26,8 +26,26 @@ public class StringsJavaProblems {
 //                System.out.println(S.substring(start,end));
 
 
-// TODO
-// 3.
+// TODO Java Substring Comparisons
+//  3.Given a string, S, and an integer, K, complete the function so that it finds the lexicographically smallest and largest substrings of length K.
+//
+// String smallest = "";
+//        String largest = "";
+//         java.util.List<String> a = new java.util.ArrayList<>();
+//
+//        for(int i=0;i<s.length()-k+1;i++){
+//                a.add(s.substring(i,i+k));
+//        }
+//        java.util.Collections.sort(a);
+//         smallest = a.get(0);
+//         largest = a.get(a.size()-1);
+//        // Complete the function
+//        // 'smallest' must be the lexicographically smallest substring of length 'k'
+//        // 'largest' must be the lexicographically largest substring of length 'k'
+//
+//        return smallest + "\n" + largest;
+//    }
+//
 
 
 
