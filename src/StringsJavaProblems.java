@@ -47,7 +47,17 @@ public class StringsJavaProblems {
 //    }
 //
 
+//TODO Java String Reverse
+// 4. Given a string A, print Yes if it is a palindrome, print No otherwise.
+//
+//  Scanner sc=new Scanner(System.in);
+//        String A=sc.next();
+//        /* Enter your code here. Print output to STDOUT. */
+//        System.out.println( A.equals(new StringBuilder(A).reverse().toString()) ? "Yes" : "No");
+//
+//
 
 
+// TODO
     }
 }
