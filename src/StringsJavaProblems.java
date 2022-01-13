@@ -92,5 +92,28 @@ public class StringsJavaProblems {
 //
 //    }
 
+// TODO Java String Tokens
+// 6. On the first line, print an integer, n , denoting the number of tokens in string s (they do not need to be unique). Next, print each of the n tokens on a new line in the same order as they appear in input string s.
+//
+// Scanner scan = new Scanner(System.in);
+//        String s = scan.nextLine();
+//        // Write your code here.
+//        String[] tokens = s.split("[^a-zA-Z]");
+//         int numTokens = 0;
+//
+//         for (int i=0; i<tokens.length; ++i)
+//             if (tokens[i].length() > 0)
+//                 numTokens++;
+//
+//         System.out.println(numTokens);
+//
+//         for (int i=0; i<tokens.length;++i)
+//             if (tokens[i].length() > 0)
+//                 System.out.println(tokens[i]);
+//        scan.close();
+//
+
+
+//TODO
     }
 }
