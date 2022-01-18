@@ -137,6 +137,19 @@ public class StringsJavaProblems {
 //          	//Write your code
 //		}
 
+// TODO Java Regex problem
+// In this problem you will be provided strings containing any combination of ASCII characters. You have to write a regular expression to find the valid IPs.
+//
+//Just write the MyRegex class which contains a String . The string should contain the correct regular expression.
+//
+//(MyRegex class MUST NOT be public)
+//
+// class MyRegex {
+//
+//String ip0to255 = "(\\d{1,2}||(0|1)\\d{2}||2[0-4]\\d||25[0-5])";
+//
+//public String pattern = ip0to255 + "\\." + ip0to255 + "\\." + ip0to255 + "\\." + ip0to255;
+//}
 
     }
 }
