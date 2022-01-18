@@ -151,5 +151,42 @@ public class StringsJavaProblems {
 //public String pattern = ip0to255 + "\\." + ip0to255 + "\\." + ip0to255 + "\\." + ip0to255;
 //}
 
+//TODO Java Valid Username Regular Expression
+// Input Format
+//
+//The first line of input contains an integer , describing the total number of usernames. Each of the next  lines contains a string describing the username. The locked stub code reads the inputs and validates the username.
+//
+// Output Format
+//
+//For each of the usernames, the locked stub code prints Valid if the username is valid; otherwise Invalid each on a new line.
+//
+//Solution
+// class UsernameValidator {
+//    /*
+//     * Write regular expression here.
+//     */
+//    public static final String regularExpression = "^[a-zA-Z][a-zA-Z0-9_]{7,29}$";
+//}
+//
+//
+//public class Solution {
+//    private static final Scanner scan = new Scanner(System.in);
+//
+//    public static void main(String[] args) {
+//        int n = Integer.parseInt(scan.nextLine());
+//        while (n-- != 0) {
+//            String userName = scan.nextLine();
+//
+//            if (userName.matches(UsernameValidator.regularExpression)) {
+//                System.out.println("Valid");
+//            } else {
+//                System.out.println("Invalid");
+//            }
+//        }
+//    }
+//}
+
+//TODO
+
     }
 }
