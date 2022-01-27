@@ -52,5 +52,19 @@ public class OOP {
 //String temp=super.define_me();
 //
 
+//TODO Java InstanceOfKeyword
+//In the main method, we populated an ArrayList with several instances of these classes. count method calculates how many instances of each type is present in the ArrayList. The code prints three integers, the number of instance of Student class, the number of instance of Rockstar class, the number of instance of Hacker class.
+//
+//But some lines of the code are missing, and you have to fix it by modifying only  lines! Don't add, delete or modify any extra line.
+//
+//To restore the original code in the editor, click on the top left icon in the editor and create a new buffer.
+//
+// if(element instanceof Student)
+//            a++;
+//         if(element instanceof Rockstar)
+//            b++;
+//         if(element instanceof Hacker)
+//            c++;
+
 
 }
