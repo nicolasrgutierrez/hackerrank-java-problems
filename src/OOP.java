@@ -67,4 +67,19 @@ public class OOP {
 //            c++;
 
 
+// TODO Java Iterator
+// In this problem you need to complete a method func. The method takes an ArrayList as input. In that ArrayList there is one or more integer numbers, then there is a special string "###", after that there are one or more other strings.
+//
+// static Iterator func(ArrayList mylist){
+//      Iterator it=mylist.iterator();
+//      while(it.hasNext()){
+//         Object element = it.next();
+//         if(element instanceof String)//Hints: use instanceof operator
+//
+//			break;
+//		}
+//      return it;
+
+
+//
 }
