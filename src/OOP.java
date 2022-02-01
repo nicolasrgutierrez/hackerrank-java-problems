@@ -128,5 +128,48 @@ public class OOP {
 //        System.out.println(maxSum);
 
 
+// TODO Java Inheritance 1
+//The code above is provided for you in your editor. You must add a sing method to the Bird class, then modify the main method accordingly so that the code prints the following lines:
+//
+//I am walking
+//I am flying
+//I am singing
+//
+// class Animal{
+//	void walk()
+//	{
+//		System.out.println("I am walking");
+//	}
+//}
+//class Bird extends Animal implements asd
+//{
+//	void fly()
+//	{
+//		System.out.println("I am flying");
+//	}
+//
+//    public void sing() {
+//        System.out.println("I am singing");
+//    }
+//}
+//
+//interface asd {
+//    void sing();
+//}
+//
+//public class Solution{
+//
+//   public static void main(String args[]){
+//
+//	  Bird bird = new Bird();
+//	  bird.walk();
+//	  bird.fly();
+//      bird.sing();
+//
+//   }
+//}
 
+
+
+// TODO
 }
