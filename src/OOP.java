@@ -89,43 +89,7 @@ public class OOP {
 //        }
 
 
-// TODO Java 2D Array
-// In this problem you have to print the largest sum among all the hourglasses in the array.
-//
-//Input Format
-//
-//There will be exactly  lines, each containing  integers seperated by spaces. Each integer will be between  and  inclusive.
-//
-//Output Format
-//
-//Print the answer to this problem on a single line.
-//
-//Solution
-//int a[][] = new int[6][6];
-//        int maxSum = Integer.MIN_VALUE;
-//        try (Scanner scanner = new Scanner(System.in);)
-//        {
-//            for(int i = 0; i < 6; i++)
-//            {
-//                for(int j = 0; j < 6; j++)
-//                {
-//                    a[i][j] = scanner.nextInt();
-//                    if (i > 1 && j > 1)
-//                    {
-//                        int sum =
-//                            a[i][j]
-//                            + a[i][j-1]
-//                            + a[i][j-2]
-//                            + a[i-1][j-1]
-//                            + a[i-2][j]
-//                            + a[i-2][j-1]
-//                            + a[i-2][j-2];
-//                        if (sum > maxSum) {maxSum = sum;}
-//                    }
-//                }
-//            }
-//        }
-//        System.out.println(maxSum);
+
 
 
 // TODO Java Inheritance 1
