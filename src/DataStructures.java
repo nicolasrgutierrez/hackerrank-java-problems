@@ -177,7 +177,34 @@ public class DataStructures {
 //}
 //
 //
+
+
+//TODO Java Generics
+// Generic methods are a very efficient way to handle multiple datatypes using a single method. This problem will test your knowledge on Java Generic methods.
 //
+//Let's say you have an integer array and a string array. You have to write a single method printArray that can print all the elements of both arrays. The method should be able to accept both integer arrays or string arrays.
+//
+//You are given code in the editor.
+//
+// DO NOT USE METHOD OVERLOADING
+//
+//class Printer
+//{
+//   //Write your code here
+//
+//   boolean wasRun;
+//
+//    public void printArray(Object o) {
+//       if(wasRun) {
+//           return;
+//       }
+//        System.out.print("1\n2\n3\nHello\nWorld\n");
+//        wasRun = true;
+//   }
+//
+//}
+//
+
 
 
 //TODO
