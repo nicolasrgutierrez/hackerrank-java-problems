@@ -206,6 +206,39 @@ public class DataStructures {
 //
 
 
+//TODO Java Sort
+// You are given a list of student information: ID, FirstName, and CGPA. Your task is to rearrange them according to their CGPA in decreasing order. If two student have the same CGPA, then arrange them according to their first name in alphabetical order. If those two students also have the same first name, then order them according to their ID. No two students have the same ID.
+//
+// Input Format
+//
+//The first line of input contains an integer , representing the total number of students. The next  lines contains a list of student information in the following structure:
+//
+//ID Name CGPA
+//
+// Constraints
+// The name contains only lowercase English letters. The  contains only integer numbers without leading zeros. The CGPA will contain, at most, 2 digits after the decimal point.
+//
+// Output Format
+//
+//After rearranging the students according to the above rules, print the first name of each student on a separate line.
+//
+//Solution
+// Collections.sort(studentList,new Comparator<Student>(){
+//        public int compare(Student s1, Student s2){
+//            if((s1.getCgpa()*100) != (s2.getCgpa()*100)){
+//                return (int)((s2.getCgpa()*1000) - (s1.getCgpa()*1000));
+//            }
+//            else if(!(s1.getFname().equals(s2.getFname()))){
+//                return s1.getFname().compareTo(s2.getFname());
+//            }
+//            else{
+//                return s1.getId()-s2.getId();
+//            }
+//        }
+//      });
+//
+//
+
 
 //TODO
 //
